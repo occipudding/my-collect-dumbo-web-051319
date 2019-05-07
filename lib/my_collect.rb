@@ -8,6 +8,6 @@ def my_collect(arr)
   new_arr
 end
 
-my_collect(collection) do |lang, arr|
+my_collect(langs) do |lang, arr|
   arr << lang.upcase
 end
