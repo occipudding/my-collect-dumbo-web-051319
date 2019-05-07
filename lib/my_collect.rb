@@ -1,3 +1,5 @@
+collection = ['ruby', 'javascript', 'python', 'objective-c']
+
 def my_collect(arr)
   i = 0
   new_arr = []
@@ -8,6 +10,6 @@ def my_collect(arr)
   new_arr
 end
 
-my_collect(langs) do |lang, arr|
+my_collect(collection) do |lang, arr|
   arr << lang.upcase
 end
