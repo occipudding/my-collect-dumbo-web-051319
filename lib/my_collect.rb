@@ -1,3 +1,5 @@
+collection = ['ruby', 'javascript', 'python', 'objective-c']
+
 def my_collect(arr)
   i = 0
   new_arr = []
