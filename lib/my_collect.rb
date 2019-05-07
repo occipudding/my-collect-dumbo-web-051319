@@ -10,6 +10,3 @@ def my_collect(arr)
   new_arr
 end
 
-my_collect(collection) do |lang, arr|
-  arr << lang.upcase
-end
